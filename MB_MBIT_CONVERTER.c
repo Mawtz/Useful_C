@@ -18,7 +18,7 @@ int main ( int argc, char *argv[] )
 
     if ( argc > 3 || argc < 3 )
     {
-        printf("Parameter-Error: Ungueltige Parametermenge.\nSYNTAX: [DLSPEEDCALC] [1. Parameter] [2. Parameter]\n");
+        printf("Parameter-Error: Ungueltige Parametermenge.\nSYNTAX: [PROGRAMMNAME] [1. Parameter] [2. Parameter]\n");
         printf("Gueltige Parameter [-mb] [-mbits]\n");
     }
 
